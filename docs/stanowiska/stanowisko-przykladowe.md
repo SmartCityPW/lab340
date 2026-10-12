@@ -1,15 +1,13 @@
 ---
-title: Stanowisko przykładowe
-zdjecie: /images/przyklad.jpg
+title: IKEA board
+zdjecie: /images/ikea.jpg
 ---
+Stanowisko prezentujące gotowe rozwiązanie producenckie firmy IKEA.
 
-Krótki opis stanowiska: do czego służy, gdzie się znajduje.
+### Możliwości
 
-## Przed rozpoczęciem pracy
+TODO
 
-- *Krok 1*
-- *Krok 2*
+### Instrukcja obsługi
 
-## Po zakończeniu pracy
-
-- *Krok 1*
+TODO

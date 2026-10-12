@@ -37,22 +37,22 @@ content:
               format: markdown
               media: images
 
-      - name: bhp
-        label: BHP i regulamin
-        type: file
-        path: docs/bhp-i-regulamin.md
-        format: yaml-frontmatter
-        fields:
-          - name: title
-            label: Tytuł
-            type: string
-            required: true
-          - name: body
-            label: Treść
-            type: rich-text
-            options:
-              format: markdown
-              media: images
+      # - name: bhp
+      #   label: BHP i regulamin
+      #   type: file
+      #   path: docs/bhp-i-regulamin.md
+      #   format: yaml-frontmatter
+      #   fields:
+      #     - name: title
+      #       label: Tytuł
+      #       type: string
+      #       required: true
+      #     - name: body
+      #       label: Treść
+      #       type: rich-text
+      #       options:
+      #         format: markdown
+      #         media: images
 
   - name: stanowiska
     label: Stanowiska

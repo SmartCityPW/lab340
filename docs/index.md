@@ -6,7 +6,7 @@ Laboratorium Smart Domu i Miasta jest wyposażonego w praktyczne stanowiska test
 W laboratorium znajdują się m.in.:
 
 - Sieć pokazowa oparta na Home Assistant. Zarządza wszystkimi czujnikami i aktuatorami, które działają w trybie ciągłym w p. 340. Pokazuje jak łączyć różne urządzenie, od różnych producentów, które komunikują się za pomocą różnych protokołów, w jedną sieć smart home. Sieć może być modyfikowana tylko przez administratorów, ale zbierane dane są udostępniane użytkownikom.
-- Stanowiska testowe i eksperymentalne dla studentów. Pozwalają na naukę poprzez praktyczne eksperymenty. Lista stanowisk znajduje się w sekcji [Stanowiska](Stanowiska).
+- Stanowiska testowe i eksperymentalne dla studentów. Pozwalają na naukę poprzez praktyczne eksperymenty. Lista stanowisk znajduje się w sekcji [Stanowiska](stanowiska).
 
 ## Kontakt
 

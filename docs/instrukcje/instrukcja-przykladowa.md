@@ -1,6 +1,11 @@
 ---
 title: Instrukcja przykładowa
 ---
+!!! danger "Uwaga"
+
+    Instrukcje są w trakcie opracowywania :)
+
+
 
 Krótki opis, czego dotyczy instrukcja.
 
@@ -9,7 +14,3 @@ Krótki opis, czego dotyczy instrukcja.
 1. *Pierwszy krok*
 2. *Drugi krok*
 
-!!! danger "Uwaga"
-    Miejsce na ostrzeżenie dotyczące bezpieczeństwa.
-
-![Zdjęcie w treści](/images/przyklad.jpg)

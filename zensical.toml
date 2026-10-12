@@ -5,10 +5,10 @@
 site_name = "Laboratorium"
 site_description = "Dokumentacja obsługi laboratorium: stanowiska, instrukcje, wyposażenie"
 # TODO: podmień na docelowy adres, np. https://NAZWA-ORG.github.io/NAZWA-REPO/
-site_url = "https://example.github.io/lab-docs/"
+site_url = "https://SmartCityPW.github.io/lab340/"
 # TODO: podmień na adres repozytorium (pokazuje link do GitHuba w nagłówku)
-# repo_url = "https://github.com/NAZWA-ORG/NAZWA-REPO"
-copyright = "Laboratorium — dokumentacja wewnętrzna"
+repo_url = "https://github.com/SmartCityPW/lab340"
+copyright = "Laboratorium - dokumentacja publiczna"
 
 # Nawigacja nie jest wpisana na sztywno: buduje się automatycznie z folderów
 # w docs/, więc strony dodane przez Pages CMS pojawiają się w menu same.

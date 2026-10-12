@@ -19,7 +19,7 @@ Kluczowy wymóg: **treść mają łatwo edytować osoby nietechniczne**, bez git
 
 ## Struktura
 
-- `docs/index.md`, `docs/bhp-i-regulamin.md`: strony ogólne (w Pages CMS jako `type: file`).
+- `docs/index.md`, `docs/info-wstepne.md`: strony ogólne (w Pages CMS jako `type: file`).
 - `docs/wyposazenie.md`: strona „Wyposażenie laboratorium” (`type: file`, dawniej `aparatura`). Lista jest
   prowadzona w Excelu, a pole `lista_wyposazenia` (URL) renderuje się jako przycisk. Kolekcja urządzeń została usunięta.
 - `docs/stanowiska/`, `docs/instrukcje/`: kolekcje Pages CMS (`exclude: [index.md]`).

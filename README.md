@@ -30,7 +30,7 @@ buduje stronę i publikuje ją, po ok. minucie zmiana jest widoczna.
 | Ścieżka | Co to jest |
 |---|---|
 | `docs/index.md` | Strona główna |
-| `docs/bhp-i-regulamin.md` | BHP i regulamin |
+| `docs/info-wstepne.md` | Informacje wstępne |
 | `docs/stanowiska/` | Jedna strona na stanowisko |
 | `docs/instrukcje/` | Instrukcje i procedury |
 | `docs/wyposazenie.md` | Strona „Wyposażenie laboratorium” z linkiem do arkusza Excel (pole `lista_wyposazenia`) |

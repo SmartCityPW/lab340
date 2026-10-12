@@ -59,17 +59,7 @@ content:
         type: file
         path: docs/info-wstepne.md
         format: yaml-frontmatter
-        fields:
-          - name: title
-            label: Tytuł
-            type: string
-            required: true
-          - name: body
-            label: Treść
-            type: rich-text
-            options:
-              format: markdown
-              media: images
+        
 
   - name: stanowiska
     label: Stanowiska

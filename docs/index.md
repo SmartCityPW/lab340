@@ -11,10 +11,3 @@ Krótki opis laboratorium: do czego służy, kto może z niego korzystać.
 
 - Opiekun laboratorium: *imię i nazwisko*
 - Godziny otwarcia: *…*
-
-## Na skróty
-
-- [Zasady BHP i regulamin](bhp-i-regulamin.md)
-- [Stanowiska](stanowiska/index.md)
-- [Instrukcje](instrukcje/index.md)
-- [Aparatura](aparatura/index.md)

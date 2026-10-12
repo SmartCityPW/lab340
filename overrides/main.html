@@ -4,9 +4,8 @@
   1. Ścieżki do plików wgranych przez Pages CMS (/images/..., /pliki/...)
      są zapisywane od korzenia domeny. Na GitHub Pages strona żyje pod
      /NAZWA-REPO/, więc przepisujemy je na ścieżki względne (base_url).
-  2. Strony w docs/aparatura/ dostają kartę urządzenia z pól formularza.
-  3. Strona docs/aparatura/index.md dostaje automatyczną tabelę aparatury.
-  4. Strony w docs/stanowiska/ dostają listę przypisanej aparatury.
+  2. Strony w docs/stanowiska/ dostają zdjęcie z pola formularza.
+  3. Strona docs/wyposazenie.md dostaje przycisk z linkiem do arkusza Excel.
 -#}
 {% extends "base.html" %}
 
@@ -23,18 +22,14 @@
     <h1>{{ page.title | d(config.site_name, true) }}</h1>
   {% endif %}
 
-  {% if page.url is startingwith("aparatura/") and page.url != "aparatura/" %}
-    {{ lab.karta_urzadzenia(page, nav, base_url) }}
-  {% elif page.url is startingwith("stanowiska/") and page.url != "stanowiska/" and page.meta.zdjecie %}
+  {% if page.url is startingwith("stanowiska/") and page.url != "stanowiska/" and page.meta.zdjecie %}
     <img class="lab-zdjecie" src="{{ lab.media(page.meta.zdjecie, base_url) }}" alt="{{ page.title }}">
   {% endif %}
 
   {{ html | safe }}
 
-  {% if page.url == "aparatura/" %}
-    {{ lab.tabela_aparatury(nav, base_url) }}
-  {% elif page.url is startingwith("stanowiska/") and page.url != "stanowiska/" %}
-    {{ lab.aparatura_stanowiska(page, nav, base_url) }}
+  {% if page.url == "wyposazenie/" and page.meta.lista_wyposazenia %}
+    <p><a class="md-button md-button--primary" href="{{ lab.media(page.meta.lista_wyposazenia, base_url) }}" target="_blank" rel="noopener">Otwórz listę wyposażenia (Excel)</a></p>
   {% endif %}
 
   {% include "partials/tags.html" %}

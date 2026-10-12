@@ -78,7 +78,7 @@ content:
           media: images
       - name: body
         label: Opis i procedury
-        description: Do czego służy stanowisko, co zrobić przed i po pracy. Lista aparatury dopisze się sama.
+        description: Do czego służy stanowisko, co zrobić przed i po pracy.
         type: rich-text
         options:
           format: markdown
@@ -108,63 +108,22 @@ content:
           format: markdown
           media: images
 
-  - name: aparatura
-    label: Aparatura
-    type: collection
-    path: docs/aparatura
+  - name: wyposazenie
+    label: Wyposażenie laboratorium
+    type: file
+    path: docs/wyposazenie.md
     format: yaml-frontmatter
-    exclude: [index.md]
-    filename: "{primary}.md"
-    view:
-      fields: [title, nr_inwentarzowy, stan]
-      primary: title
-      sort: [title, nr_inwentarzowy]
-      search: [title, nr_inwentarzowy, model]
     fields:
       - name: title
-        label: Nazwa urządzenia
+        label: Tytuł
         type: string
         required: true
-      - name: zdjecie
-        label: Zdjęcie
-        type: image
-        options:
-          media: images
-      - name: stan
-        label: Stan
-        type: select
-        options:
-          values:
-            - name: sprawne
-              label: Sprawne
-            - name: usterka
-              label: Usterka — można używać ostrożnie
-            - name: w-naprawie
-              label: W naprawie
-            - name: wycofane
-              label: Wycofane z użytku
-      - name: stanowisko
-        label: Stanowisko
-        description: Na którym stanowisku stoi urządzenie (pojawi się na stronie stanowiska).
-        type: reference
-        options:
-          collection: stanowiska
-          value: "{path}"
-          label: "{title}"
-      - name: model
-        label: Producent / model
+      - name: lista_wyposazenia
+        label: Link do listy wyposażenia (Excel)
+        description: Pełny adres arkusza, np. z OneDrive lub SharePoint. Na stronie pojawi się jako przycisk.
         type: string
-      - name: nr_inwentarzowy
-        label: Nr inwentarzowy
-        type: string
-      - name: instrukcja_pdf
-        label: Instrukcja producenta (plik)
-        type: file
-        options:
-          media: pliki
       - name: body
-        label: Uwagi
-        description: Zastosowania, znane problemy, akcesoria.
+        label: Treść
         type: rich-text
         options:
           format: markdown

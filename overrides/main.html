@@ -1,0 +1,44 @@
+{#-
+  Nadpisanie szablonu treści strony.
+
+  1. Ścieżki do plików wgranych przez Pages CMS (/images/..., /pliki/...)
+     są zapisywane od korzenia domeny. Na GitHub Pages strona żyje pod
+     /NAZWA-REPO/, więc przepisujemy je na ścieżki względne (base_url).
+  2. Strony w docs/aparatura/ dostają kartę urządzenia z pól formularza.
+  3. Strona docs/aparatura/index.md dostaje automatyczną tabelę aparatury.
+  4. Strony w docs/stanowiska/ dostają listę przypisanej aparatury.
+-#}
+{% extends "base.html" %}
+
+{% block content %}
+  {% import "partials/lab.html" as lab %}
+  {% include "partials/actions.html" %}
+
+  {% set html = page.content
+      | replace('src="/images/', 'src="' ~ base_url ~ '/images/')
+      | replace('href="/images/', 'href="' ~ base_url ~ '/images/')
+      | replace('href="/pliki/', 'href="' ~ base_url ~ '/pliki/') %}
+
+  {% if "<h1" not in page.content %}
+    <h1>{{ page.title | d(config.site_name, true) }}</h1>
+  {% endif %}
+
+  {% if page.url is startingwith("aparatura/") and page.url != "aparatura/" %}
+    {{ lab.karta_urzadzenia(page, nav, base_url) }}
+  {% elif page.url is startingwith("stanowiska/") and page.url != "stanowiska/" and page.meta.zdjecie %}
+    <img class="lab-zdjecie" src="{{ lab.media(page.meta.zdjecie, base_url) }}" alt="{{ page.title }}">
+  {% endif %}
+
+  {{ html | safe }}
+
+  {% if page.url == "aparatura/" %}
+    {{ lab.tabela_aparatury(nav, base_url) }}
+  {% elif page.url is startingwith("stanowiska/") and page.url != "stanowiska/" %}
+    {{ lab.aparatura_stanowiska(page, nav, base_url) }}
+  {% endif %}
+
+  {% include "partials/tags.html" %}
+  {% include "partials/source-file.html" %}
+  {% include "partials/feedback.html" %}
+  {% include "partials/comments.html" %}
+{% endblock %}

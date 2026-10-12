@@ -1,0 +1,69 @@
+/* Karta urządzenia, tabela wyposażenia, statusy */
+
+.lab-karta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: flex-start;
+  margin: 1rem 0 2rem;
+  padding: 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+}
+.lab-karta__zdjecie {
+  flex: 0 1 18rem;
+  width: 18rem;
+  max-width: 100%;
+  border-radius: 0.3rem;
+}
+.lab-karta__dane {
+  flex: 1 1 14rem;
+  margin: 0;
+}
+.md-typeset .lab-karta__dane dt {
+  font-weight: 700;
+  margin-top: 0.6rem;
+}
+.md-typeset .lab-karta__dane dd {
+  margin: 0.1rem 0 0;
+}
+
+.lab-zdjecie {
+  display: block;
+  max-width: 100%;
+  max-height: 24rem;
+  margin: 0.5rem 0 1.5rem;
+  border-radius: 0.3rem;
+}
+
+.lab-miniatura {
+  width: 3.5rem;
+  height: 2.5rem;
+  object-fit: cover;
+  border-radius: 0.2rem;
+}
+
+.lab-status {
+  display: inline-block;
+  padding: 0.05rem 0.5rem;
+  border-radius: 1rem;
+  font-size: 0.75em;
+  font-weight: 600;
+  white-space: nowrap;
+  color: #fff;
+  background: #6b7280;
+}
+.lab-status--sprawne    { background: #15803d; }
+.lab-status--usterka    { background: #b45309; }
+.lab-status--w-naprawie { background: #b91c1c; }
+.lab-status--wycofane   { background: #4b5563; }
+
+.lab-tabela {
+  overflow-x: auto;
+}
+.md-typeset .lab-tabela table {
+  display: table;
+}
+.md-typeset .lab-tabela td {
+  vertical-align: middle;
+}

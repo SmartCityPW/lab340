@@ -16,9 +16,9 @@ Stanowisko do praktycznej nauki systemu Home Assistant z protokołami ZigBee i M
 
 - centralka Home Assistant Green
 - 2 x bramka Home Assistant Connect ZBT-2 (ZigBee/Matter)
-- czujnik temperatury i wilgotności Aqara (ZigBee)
+- czujnik temperatury i wilgotności Aqara Temperature & Humidity Sensor T1 (ZigBee)
 - lampka z żarówką LED RGB IKEA KAJPLATS (Matter)
-- okno z czujnikami otwarcia Aqara T1 (ZigBee) i Aqara P2 (Matter)
+- okno z czujnikami otwarcia Aqara Door & Window Sensor T1 (ZigBee) oraz Aqara Door & Window Sensor P2 (Matter)
 - roleta okienna z silnikiem Aqara Roller Shade Driver E1 (Zigbee)
 - listwa zasilająca
 

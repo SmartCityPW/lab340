@@ -12,6 +12,16 @@ Stanowisko do praktycznej nauki systemu Home Assistant z protokołami ZigBee i M
 - Tworzenie dashboardów do wizualizacji danych z czujników i zarządzania podłączonymi urządzeniami
 - Tworzenie automatyzacji w Home Assistant
 
+### **Zawartość**
+
+- centralka Home Assistant Green
+- 2 x bramka Home Assistant Connect ZBT-2 (ZigBee/Matter)
+- czujnik temperatury i wilgotności Aqara (ZigBee)
+- lampka z żarówką LED RGB IKEA KAJPLATS (Matter)
+- okno z czujnikami otwarcia Aqara T1 (ZigBee) i Aqara P2 (Matter)
+- roleta okienna z silnikiem Aqara Roller Shade Driver E1 (Zigbee)
+- listwa zasilająca
+
 ### **Instrukcja obsługi**
 
 **TODO**

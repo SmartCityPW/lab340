@@ -34,7 +34,9 @@ Przed dodaniem urządzenia do sieci pokazowej zapisz jego szczegóły w arkuszu 
 Procedura dodawania urządzenia zależy od typu komunikacji bezprzewodowej, z której ono korzysta:
 
 - Zigbee – wejść na [lab340-c001.local:8080](lab340-c001.local:8080) lub [192.168.0.102:8080](192.168.0.102:8080) (panel GUI Zigbee2MQTT) i przez GUI dodać urządzenie, a następnie zmienić jego nazwę (na taką jaka wychodzi w arkuszu).
-- MQTT – urządzenie musi się połączyć z wifi oraz z brokerem pod adresem `lab340-C001.local:1883` (lub `192.168.0.102:1883`, bo po nazwie nie zawsze chce działać)
+- MQTT – urządzenie musi się połączyć z wifi oraz z brokerem pod adresem `lab340-C001.local:1883` (lub `192.168.0.102:1883`, bo po nazwie nie zawsze chce działać). Urządzenie powinno nadawać/subskrybować temat utworzony w arkuszu. Payload wysyłany przez MQTT to powinien być JSON z pomiarami z czujników lub akcjami do wykonania – przy dodawaniu własnego urządzenia nalezy opisać, które pole co oznacza. Następnie trzeba dodać urządzenie do Home Assistant i zapisywanie do bazy danych przez Telegraf.
+- Matter – otwórz aplikację HA na telefonie -> ustawienia -> Urządzenia i usługi -> zakładka Urządzenia -> Dodaj urządzenie -> Dodaj urządzenie Matter
+- LoRaWAN - przez GUI Chirpstack pod adresem [lab340-c001.local:8090](lab340-c001.local:8090)
 
 ## Architektura sieci (dla zaawansowanych)
 

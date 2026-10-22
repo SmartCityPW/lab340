@@ -28,13 +28,9 @@ Wszystkie pomiary zapisywane są do bazy danych InfluxDB na porcie 8086. Można 
 ## Dodawanie nowych urządzeń
 
 !!! danger "Uwaga"
-
 ```
-
 Dodawanie urządzeń do sieci pokazowej wymaga uprawnień administratora! Jeśli chcesz dodać nowe urządzenie skontaktuj się z administracją laboratorium.
-
 Jeśli chcesz samodzielnie nauczyć się dodawania nowych urządzeń wykorzystaj stanowisko [Home Assistant board](home-assistant-board).
-
 ```
 
 ## Architektura sieci (dla zaawansowanych)

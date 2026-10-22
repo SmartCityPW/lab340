@@ -1,7 +1,7 @@
 ---
 title: Instrukcja korzystania z sieci pokazowej
 ---
-Opis stanowiska: [sieć pokazowa](/stanowiska/siec-pokazowa)
+Opis stanowiska: [sieć pokazowa](../stanowiska/siec-pokazowa)
 
 Wszystkie akcje należy wykonywać będąc podłączonym do sieci WiFi lab340.
 
@@ -27,13 +27,14 @@ Wszystkie pomiary zapisywane są do bazy danych InfluxDB na porcie 8086. Można 
 
 ## Dodawanie nowych urządzeń
 
-!!! danger "Uwaga: Dodawanie urządzeń do sieci pokazowej wymaga uprawnień administratora! Jeśli chcesz dodać nowe urządzenie skontaktuj się z administracją laboratorium. Jeśli chcesz samodzielnie nauczyć się dodawania nowych urządzeń wykorzystaj stanowisko [Home Assistant board](/stanowiska/home-assistant-board/)."
+!!! danger "Uwaga: Dodawanie urządzeń do sieci pokazowej wymaga uprawnień administratora! Jeśli chcesz dodać nowe urządzenie skontaktuj się z administracją laboratorium. Jeśli chcesz samodzielnie nauczyć się dodawania nowych urządzeń wykorzystaj stanowisko [Home Assistant board](../stanowiska/home-assistant-board/)."
 
 Przed dodaniem urządzenia do sieci pokazowej zapisz jego szczegóły w arkuszu dostępnym w zakładce Wyposażenie laboratorium. Po uzupełnieniu szczegółów zostanie wygenerowana jego nazwa.
 
 Procedura dodawania urządzenia zależy od typu komunikacji bezprzewodowej, z której ono korzysta:
 
-- x
+- Zigbee – wejść na [lab340-c001.local:8080](lab340-c001.local:8080) lub [192.168.0.102:8080](192.168.0.102:8080) (panel GUI Zigbee2MQTT) i przez GUI dodać urządzenie, a następnie zmienić jego nazwę (na taką jaka wychodzi w arkuszu).
+- MQTT – urządzenie musi się połączyć z wifi oraz z brokerem pod adresem `lab340-C001.local:1883` (lub `192.168.0.102:1883`, bo po nazwie nie zawsze chce działać)
 
 ## Architektura sieci (dla zaawansowanych)
 

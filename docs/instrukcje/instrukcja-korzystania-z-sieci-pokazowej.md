@@ -1,7 +1,7 @@
 ---
 title: Instrukcja korzystania z sieci pokazowej
 ---
-Opis stanowiska: [sieć pokazowa](siec-pokazowa)
+Opis stanowiska: [sieć pokazowa](stanowiska/siec-pokazowa)
 
 Wszystkie akcje należy wykonywać będąc podłączonym do sieci WiFi lab340.
 
@@ -27,13 +27,10 @@ Wszystkie pomiary zapisywane są do bazy danych InfluxDB na porcie 8086. Można 
 
 ## Dodawanie nowych urządzeń
 
-!!! danger "Uwaga"
-
-```
-Dodawanie urządzeń do sieci pokazowej wymaga uprawnień administratora! Jeśli chcesz dodać nowe urządzenie skontaktuj się z administracją laboratorium. Jeśli chcesz samodzielnie nauczyć się dodawania nowych urządzeń wykorzystaj stanowisko [Home Assistant board](home-assistant-board).
-```
+!!! danger "Uwaga: Dodawanie urządzeń do sieci pokazowej wymaga uprawnień administratora! Jeśli chcesz dodać nowe urządzenie skontaktuj się z administracją laboratorium. Jeśli chcesz samodzielnie nauczyć się dodawania nowych urządzeń wykorzystaj stanowisko [Home Assistant board](home-assistant-board)."
 
 Procedura dodawania urządzenia zależy od typu komunikacji bezprzewodowej, z której ono korzysta:
+
 - x
 
 ## Architektura sieci (dla zaawansowanych)

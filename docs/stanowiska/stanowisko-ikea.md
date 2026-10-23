@@ -15,6 +15,7 @@ Stanowisko demonstrujące możliwości systemu Ikea Dirigera jako ekosystemu „
 - Zapisywanie i kopiowanie konfiguracji pomiędzy podłączonymi urządzeniami mobilnymi w sieci lokalnej
 
 ### Zawartość
+
 - Centralka Ikea DIRIGERA wyposażona w protokoły Matter i Zigbee
 - 2x Pilot zdalnego sterowania Ikea BILRESA (w wariancie z przyciskami i pokrętłem analogowym)
 - 3x smart wtyczka Ikea GRILLPLATS
@@ -30,6 +31,7 @@ Stanowisko demonstrujące możliwości systemu Ikea Dirigera jako ekosystemu „
 ### Opis
 
 Cały demonstrator został przygotowany w formie przenośnej platformy pokazowej ułatwiającej prezentację na wydarzeniach popularyzujących naukę. Obecnie zaprogramowane na nim możliwości to m.in:
+
 - Reagowanie świateł na otwarcie i zamknięcie drzwi oraz samoczynne włączanie, wyłączanie i zmiana temperatury barwowej w zależności od pory dnia
 - Wykrywanie zalania i automatyczne odpompowanie wody ze zbiornika
 - Zmiana koloru światła w zależności od jakości powietrza w pomieszczeniu

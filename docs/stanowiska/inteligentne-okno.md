@@ -2,7 +2,7 @@
 title: Inteligentne okno
 zdjecie: /images/smartokno.jpg
 ---
-Urządzenie do zdalnego zamykania i otwierania okna w p. 308 wytworzone przez studentów KN Smart City.
+Urządzenie do zdalnego zamykania i otwierania okna w p. 340 wytworzone przez studentów KN Smart City.
 
 ### **Możliwości**
 

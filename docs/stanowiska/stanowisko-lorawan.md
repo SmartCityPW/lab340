@@ -1,5 +1,6 @@
 ---
 title: Stanowisko LoRaWAN
+zdjecie: /images/stanowisko-lorawan.jpg
 ---
 Stanowisko do testowania komunikacji bezprzewodowej LoRaWAN, która jest powszechnie wykorzystywana w inteligentnych miastach, ze względu na duży zasięg (nawet kilka kilometrów) oraz niski pobór prądu.
 

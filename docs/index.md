@@ -1,7 +1,9 @@
 ---
 title: Strona główna
 ---
-Laboratorium Smart Domu i Miasta jest wyposażonego w praktyczne stanowiska testowe, które odwzorują rzeczywiste elementy inteligentnego domu i miasta, takie jak czujniki, bramki komunikacji bezprzewodowej i elementy wykonawcze.  Znajduje się ono w p. 340 na Wydziale Inżynierii Lądowej Politechniki Warszawskiej. Zostało opracowane przez KN Smart City PW w ramach Grantu Rektorskiego 2025.
+![Laboratorium](/images/caly-lab.jpg)
+
+Laboratorium Smart Domu i Miasta jest wyposażonego w praktyczne stanowiska testowe, które odwzorują rzeczywiste elementy inteligentnego domu i miasta, takie jak czujniki, bramki komunikacji bezprzewodowej i elementy wykonawcze. Znajduje się ono w p. 340 na Wydziale Inżynierii Lądowej Politechniki Warszawskiej. Zostało opracowane przez KN Smart City PW w ramach Grantu Rektorskiego 2025.
 
 W laboratorium znajdują się m.in.:
 
